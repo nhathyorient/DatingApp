@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/nhathy/Documents/FUTURE/DatingApp/API/API.csproj": {}
+    "/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/API.csproj": {}
   },
   "projects": {
-    "/home/nhathy/Documents/FUTURE/DatingApp/API/API.csproj": {
+    "/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nhathy/Documents/FUTURE/DatingApp/API/API.csproj",
+        "projectUniqueName": "/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/API.csproj",
         "projectName": "API",
-        "projectPath": "/home/nhathy/Documents/FUTURE/DatingApp/API/API.csproj",
+        "projectPath": "/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/API.csproj",
         "packagesPath": "/home/nhathy/.nuget/packages/",
-        "outputPath": "/home/nhathy/Documents/FUTURE/DatingApp/API/obj/",
+        "outputPath": "/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nhathy/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
