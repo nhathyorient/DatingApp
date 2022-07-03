@@ -27,8 +27,9 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Adding the DbContext to Startup class so that we can inject the data context to other parts of our application
             services.AddDbContext<DataContext>(options => {
-                options.UseSqlite("Connection string");
+                options.UseSqlite(this._config.GetConnectionString("DefaultConnection"));
             });
             services.AddControllers();
             services.AddSwaggerGen(c =>
