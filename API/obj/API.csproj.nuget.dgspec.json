@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\hy.ho\\Documents\\future\\dotnet-and-angular-course\\DatingApp\\API\\API.csproj": {}
+    "/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\hy.ho\\Documents\\future\\dotnet-and-angular-course\\DatingApp\\API\\API.csproj": {
+    "/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\hy.ho\\Documents\\future\\dotnet-and-angular-course\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\hy.ho\\Documents\\future\\dotnet-and-angular-course\\DatingApp\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\hy.ho\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\hy.ho\\Documents\\future\\dotnet-and-angular-course\\DatingApp\\API\\obj\\",
+        "projectPath": "/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/API.csproj",
+        "packagesPath": "/home/nhathy/.nuget/packages/",
+        "outputPath": "/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hy.ho\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/nhathy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -39,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -76,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }
