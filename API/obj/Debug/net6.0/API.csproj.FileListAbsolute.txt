@@ -162,3 +162,4 @@ C:/Users/hy.ho/Documents/future/dotnet-and-angular-course/DatingApp/API/obj/Debu
 C:/Users/hy.ho/Documents/future/dotnet-and-angular-course/DatingApp/API/obj/Debug/net6.0/API.pdb
 C:/Users/hy.ho/Documents/future/dotnet-and-angular-course/DatingApp/API/obj/Debug/net6.0/API.genruntimeconfig.cache
 C:/Users/hy.ho/Documents/future/dotnet-and-angular-course/DatingApp/API/obj/Debug/net6.0/ref/API.dll
+/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/bin/Debug/net6.0/Data/UserSeedData.json

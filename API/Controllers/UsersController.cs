@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace API.Controllers
 {
+    [Authorize]
     public class UsersController : BaseApiController
     {
         private readonly DataContext _context;
@@ -23,16 +24,19 @@ namespace API.Controllers
 
         // one end point to get all the users from our database
         [HttpGet]
-        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<AppUser>>> GetUsers() {
             return await _context.Users.ToListAsync();
         }
 
         // one end point to get a specific user from the database
-        [Authorize]
-        [HttpGet("{id}")] // api/users/id
+        [HttpGet("userId/{id}")] // api/users/id
         public async Task<ActionResult<AppUser>> GetUser(int id) {
             return await _context.Users.FindAsync(id);
+        }
+
+        [HttpGet("username/{username}")]
+        public async Task<ActionResult<AppUser>> GetUserByUsername(string username) {
+            return await _context.Users.FirstOrDefaultAsync(user => user.UserName == username);
         }
     }
 }
