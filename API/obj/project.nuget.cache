@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "FRUCs8R/sDIYXCGl2hmoK2xrpn2i92lCk1/QgV0i6Y2WklVGeTovmOOzwQxmgICB3ecGMFc5E3t3e/iOIolWMg==",
+  "dgSpecHash": "uwnH4nVYOo5a3wxJOXfUs4m9uDFFTYqwdnSG3ITENN0olHn/luAU6My7KQ+yK/dpDvZEYRXZEbyzNBkcffD/FQ==",
   "success": true,
   "projectFilePath": "/home/nhathy/Documents/FUTURE/Dotnet-and-Angular-Udemy-Course/DatingApp/API/API.csproj",
   "expectedPackageFiles": [
+    "/home/nhathy/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
+    "/home/nhathy/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/home/nhathy/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/nhathy/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.6/microsoft.aspnetcore.authentication.jwtbearer.6.0.6.nupkg.sha512",
-    "/home/nhathy/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/nhathy/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/nhathy/.nuget/packages/microsoft.data.sqlite.core/7.0.0-preview.5.22302.2/microsoft.data.sqlite.core.7.0.0-preview.5.22302.2.nupkg.sha512",
     "/home/nhathy/.nuget/packages/microsoft.entityframeworkcore/7.0.0-preview.5.22302.2/microsoft.entityframeworkcore.7.0.0-preview.5.22302.2.nupkg.sha512",
     "/home/nhathy/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.0-preview.5.22302.2/microsoft.entityframeworkcore.abstractions.7.0.0-preview.5.22302.2.nupkg.sha512",
