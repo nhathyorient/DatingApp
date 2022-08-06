@@ -35,7 +35,8 @@
     </ul>
 
     <div class="dropdown" *ngIf="currentUser$ | async as user">
-      <a class="text-light">Welcome {{ user.username | titlecase }}</a>
+      <img src="{{ user.photoUrl }}" alt="{{ user.username }}" />
+      <a class="text-light ml-2">Welcome {{ user.username | titlecase }}</a>
     </div>
 
     <form

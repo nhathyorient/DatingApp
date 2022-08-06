@@ -14,11 +14,7 @@ export class NavComponent implements OnInit {
   model: any = {};
   currentUser$: Observable<User>;
 
-  constructor(
-    private accountService: AccountService,
-    private router: Router,
-    private toastr: ToastrService
-  ) {}
+  constructor(private accountService: AccountService, private router: Router) {}
 
   ngOnInit(): void {
     this.currentUser$ = this.accountService.currentUser$;
